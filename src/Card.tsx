@@ -119,7 +119,7 @@ function Card() {
                         </div>
                     ))
                 ) : (
-                    <h4>Todavía no tienes tareas</h4>
+                    <h2>Todavía no tienes tareas</h2>
                 )}
             </div>
             {tasks.length > 0 && (
